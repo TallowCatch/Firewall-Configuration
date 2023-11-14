@@ -1,5 +1,5 @@
 # Firewall Configuration
- ##A C code repository for a firewall management system, encompassing server-client interactions, rule processing, and activity logging.
+A C code repository for a firewall management system, encompassing server-client interactions, rule processing, and activity logging.
 
 # Prerequisites
 1. Python (version 3.12)
