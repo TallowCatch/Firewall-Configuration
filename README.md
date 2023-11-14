@@ -22,8 +22,8 @@ Additional Python Packages: `tkinter`, `Pillow`, `customtkinter`, `requests`. Th
 
 * Download the source tree and change to the source directory.
     ```bash
-    git clone https://your-repository-url.git
-    cd your-repository-directory
+    git clone https://github.com/TallowCatch/Firewall-Configuration.git
+    cd Firewall-Configuration
     ```
 * To compile the server, run:
     ```bash
