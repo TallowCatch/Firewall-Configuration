@@ -1,54 +1,24 @@
 # Firewall Configuration
-A C code repository for a firewall management system, encompassing server-client interactions, rule processing, and activity logging.
+A C code repository for a firewall management system, encompassing server-client interactions, rule processing, and activity logging. A firewall rule is specified in the form of
 
-# Prerequisites
+<IPAddresses> <ports>
+
+where <IPAddresses> is either a single IP address, which has the form xxx.xxx.xxx.xxx, where xxx is a number between 0 and 255, or <IPAddress1>-<IPAddress2>. Similarly, <ports> is either a single port number, which is a number between
+0 and 65535, or <port1>-<port2>, where <port1> and <port2> are ports and <port1> is smaller than <port2>.
+
+The code comes with a python3 GUI to avoid rigorous yet error-prone input.
+
+## Prerequisites
+
 1. Python (version 3.12)
 2. GCC
-3. Pip
+3. Pip (package manager)
   
-# Build
+## Build
 
-# Create a virtual environment
+* Download the source tree, change to the source directory
+* Run 'make' for command-line utility
+* To compile GUI, run 'make GUI'
 
-```bash
-python3 -m venv venv
-```
+## Installation
 
-# Activate
-- Activate the virtual environment (On Windows, use `venv\Scripts\activate`)
-
-```bash
-source venv/bin/activate
-```
-
-# Install required Python packages
-pip install tkinter customtkinter pillow requests
-
-
-## Install the required Python packages for the GUI:
-```bash
-
-pip install tkinter customtkinter pillow requests
-
-```
-
-## Install dependencies
-```bash
-
-sudo apt install build-essential
-
-```
-
-## Compile the C program
-```bash
-
-gcc -o myprogram myprogram.c
-
-```
-
-## Run the compiled program
-```bash
-./myprogram
-```
-
-# Deactivate
