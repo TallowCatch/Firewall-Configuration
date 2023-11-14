@@ -18,9 +18,12 @@ The code comes with a python3 GUI to avoid rigorous yet error-prone input.
   
 ## Build
 
-* Download the source tree, change to the source directory
-* Run 'make' for command-line utility
-* To compile GUI, run 'make GUI'
+* Download the source tree, change to the source directory.
+* Run 'make' for command-line utility.
+* To compile GUI, Run 'make run-gui'.
 
 ## Installation
 
+## Cleanup
+
+* Use 'make clean' to remove the compiled server files.
