@@ -8,6 +8,23 @@ A C code repository for a firewall management system, encompassing server-client
   
 # Build
 
+# Create a virtual environment
+
+```bash
+python3 -m venv venv
+```
+
+# Activate
+- Activate the virtual environment (On Windows, use `venv\Scripts\activate`)
+
+```bash
+source venv/bin/activate
+```
+
+# Install required Python packages
+pip install tkinter customtkinter pillow requests
+
+
 ## Install the required Python packages for the GUI:
 ```bash
 
@@ -34,6 +51,4 @@ gcc -o myprogram myprogram.c
 ./myprogram
 ```
 
-# Install
-
-# Uninstall
+# Deactivate
