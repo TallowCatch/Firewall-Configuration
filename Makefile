@@ -15,14 +15,13 @@ client: client.o
 client.o: client.c
 	$(CC) $(CFLAGS) -c client.c
 
-clean:
-	rm -f *.o server client
-
 run-gui:
 	python3 Firewall_GUI.py
 
+
 clean:
-	rm -f *.o server
+	rm -f *.o server client
+
 
 
 
