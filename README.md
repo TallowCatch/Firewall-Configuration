@@ -12,7 +12,7 @@ The code comes with a Python 3 GUI to facilitate user-friendly and error-minimiz
 
 ## Prerequisites
 
-1. **Python**: Version 3.12 or higher.
+1. **Python**: Version 3.12.0 or higher.
 2. **GCC**: For compiling the C server and client.
 3. **Pip**: Python package manager, for installing Python dependencies.
 
