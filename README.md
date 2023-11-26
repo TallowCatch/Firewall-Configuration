@@ -25,14 +25,15 @@ Additional Python Packages: `tkinter`, `Pillow`, `customtkinter`, `requests`. Th
     git clone https://github.com/TallowCatch/Firewall-Configuration.git
     cd Firewall-Configuration
     ```
-* To compile the server and client, run:
+* To compile the server and client for CLI utility, run:
     ```bash
     make
     ```
-* To start the GUI, run:
+* To simultaneously start the server and the GUI, run:
     ```bash
-    make run-gui
+    make run-all
     ```
+    This will launch the server in the background and then open the GUI. Closing the GUI will automatically shut down the server.
 
 ## CLI Client Usage
 
@@ -59,9 +60,3 @@ The client can be used for direct command-line interactions with the firewall se
 ## Cleanup
 
 * Use `make clean` to remove the compiled server and client files.
-
-## Running the Application
-
-* After building, start the server by executing `./server`.
-* Run the GUI using the `make run-gui` command.
-* For CLI interactions, use the respective `./client` commands.
