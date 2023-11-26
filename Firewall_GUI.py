@@ -43,7 +43,7 @@ class FirewallGUI:
         self.port_entry.grid(row=1, column=1, padx=10, pady=10)
 
         # Load icons for buttons
-        self.add_icon = load_image("plus.png")
+        self.add_icon = load_image("plus-icon-vector.png")
         self.delete_icon = load_image("delete-icon-vector.png")
         self.list_icon = load_image("list-icon-vector.png")
         self.check_icon = load_image("IP_Image.png")
