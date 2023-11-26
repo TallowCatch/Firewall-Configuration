@@ -1,5 +1,6 @@
 import tkinter as tk
 import customtkinter
+from customtkinter import CTkImage
 from tkinter import ttk, messagebox, scrolledtext, Menu
 from PIL import Image, ImageTk
 import re
@@ -15,7 +16,8 @@ customtkinter.set_default_color_theme("dark-blue")
 # Function to load images using relative paths
 def load_image(image_name):
     image_path = os.path.join("Images", image_name)
-    return ImageTk.PhotoImage(Image.open(image_path).resize((20, 20), Image.Resampling.LANCZOS))
+    pil_image = Image.open(image_path)
+    return CTkImage(pil_image)
 
 class FirewallGUI:
     def __init__(self, master):
